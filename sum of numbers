@@ -1,0 +1,9 @@
+def calculate_sum(numbers):
+    return sum(numbers)
+
+# Example usage:
+numbers_input = input("Enter a sequence of numbers separated by spaces: ")
+numbers_list = [int(num) for num in numbers_input.split()]
+
+result_sum = calculate_sum(numbers_list)
+print(f"The sum of the numbers is: {result_sum}")
